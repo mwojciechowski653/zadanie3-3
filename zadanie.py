@@ -8,4 +8,4 @@ def test_answer():
   assert div(10,0)=="Nie dzieli sie przez zero"
 
 def test_answer():
-  assert div(10,2)==5
+  assert div(10,2)==4
