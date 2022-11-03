@@ -4,5 +4,8 @@ def div(a,b):
   else:
     return a/b
     
-print(div(10,0))
-print(div(10,5))    
+def test_answer():
+  assert div(10,0)=="Nie dzieli sie przez zero"
+
+def test_answer():
+  assert div(10,2)==5
